@@ -1,11 +1,27 @@
 # HandoraX
-A hand gesture control system by NexoraX team.
+A cutting-edge hand gesture control system developed by **NexoraX**.
 
-## Description
-HandoraX allows you to control your computer using hand gestures captured via webcam. Move the cursor, click, drag, scroll, zoom, and more—all with simple hand movements!
+![HandoraX Demo](https://via.placeholder.com/600x300.png?text=HandoraX+Demo)  
+*Control your PC with the power of your hands!*
+
+## Overview
+HandoraX is an innovative application that transforms your webcam into a gesture-based controller. Say goodbye to traditional mouse and keyboard inputs—navigate, click, drag, scroll, and zoom using intuitive hand gestures. Built with Python, OpenCV, and MediaPipe, this project showcases the future of human-computer interaction.
+
+## Features
+- **Cursor Control**: Move your cursor with an open hand.
+- **Click & Hold**: Tap or hold your index finger to your thumb for clicks or dragging.
+- **Multi-Gesture Support**: From right-clicks to zooming, all with simple hand movements.
+- **Customizable**: Adjust sensitivity and gesture mappings in `config.py`.
+- **Real-Time**: Smooth and responsive tracking powered by MediaPipe.
 
 ## Installation
-1. Install Python 3.12 or higher.
-2. Install dependencies:
+Follow these steps to get HandoraX running on your machine:
+
+1. **Prerequisites**:
+   - Python 3.12 or higher
+   - A webcam
+
+2. **Clone the Repository**:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/MNSH-Nexo/HandoraX.git
+   cd HandoraX
