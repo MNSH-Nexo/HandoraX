@@ -51,32 +51,16 @@ HandoraX recognizes the following gestures:
 | **Two Hands**          | Zoom                      | Adjust distance between hands to zoom in/out. |
 | **Pinky to Thumb**     | Go Back                   | Pinch pinky to thumb (e.g., browser back). |
 | **Ring to Thumb**      | Go Forward                | Pinch ring finger to thumb (e.g., browser forward). |
-How It Works
+
+**How It Works**
 Hand Detection: Uses MediaPipe to detect hand landmarks in real-time.
 Gesture Recognition: Analyzes finger positions and distances to identify gestures.
 System Control: Translates gestures into mouse and keyboard actions via PyAutoGUI.
-Configuration
-Edit config.py to tweak settings:
 
+**Configuration**
+Edit config.py to tweak settings:
 MOUSE_SENSITIVITY: Adjust cursor movement speed (default: 0.3).
 SCROLL_SPEED: Control scroll sensitivity (default: 10).
 ZOOM_SPEED: Set zoom sensitivity (default: 5).
-Requirements
-opencv-python: For webcam input and image processing.
-mediapipe: For hand tracking.
-pyautogui: For system control.
 
-Install them with:
-```bash
-pip install opencv-python mediapipe pyautogui
-
-Troubleshooting
-Webcam not working? Ensure it’s connected and not blocked by another app.
-Gestures not detected? Check lighting and keep your hand in frame during calibration.
-Laggy performance? Lower your webcam resolution or adjust sensitivity in config.py.
-Contributing
-We welcome contributions! Fork the repo, make your changes, and submit a pull request. Let’s make HandoraX even better together!
-
-Team
-Developed by NexoraX—a team passionate about pushing the boundaries of technology.
 
