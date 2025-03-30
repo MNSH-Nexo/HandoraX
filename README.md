@@ -98,3 +98,6 @@ Together, we can elevate HandoraX to new heights your input matters!
 ## Team
 Crafted with pride by **NexoraX** a visionary team fueled by a passion for innovation and a mission to redefine how we interact with technology.
 
+## License
+HandoraX is released under the [MIT License](LICENSE). Feel free to use and adapt it, just keep the credit where it’s due!
+
