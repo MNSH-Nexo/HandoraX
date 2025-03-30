@@ -37,17 +37,20 @@ On first run, hold your hand open for 3 seconds to calibrate.
 Supported Gestures
 HandoraX recognizes the following gestures:
 
-Gesture	Action	Description
-Open Hand	Move Cursor	Move your hand to control the cursor.
-Index to Thumb	Click / Hold	Quick tap for click, hold (>0.3s) to drag/select.
-Two Fingers to Thumb	Right Click	Pinch index and middle fingers to thumb.
-Three Fingers to Thumb	Double Click	Pinch index, middle, and ring to thumb.
-Full Fist	Drag	Close your fist to drag items.
-Fist with Index Out	Select Text	Fist with only index extended.
-Middle to Thumb	Scroll	Pinch middle finger to thumb and move up/down.
-Two Hands	Zoom	Adjust distance between hands to zoom in/out.
-Pinky to Thumb	Go Back	Pinch pinky to thumb (e.g., browser back).
-Ring to Thumb	Go Forward	Pinch ring finger to thumb (e.g., browser forward).
+## Supported Gestures
+HandoraX recognizes the following gestures:
+| Gesture                | Action                     | Description                              |
+|------------------------|----------------------------|------------------------------------------|
+| **Open Hand**          | Move Cursor               | Move your hand to control the cursor.    |
+| **Index to Thumb**     | Click / Hold              | Quick tap for click, hold (>0.3s) to drag/select. |
+| **Two Fingers to Thumb** | Right Click             | Pinch index and middle fingers to thumb. |
+| **Three Fingers to Thumb** | Double Click          | Pinch index, middle, and ring to thumb.  |
+| **Full Fist**          | Drag                      | Close your fist to drag items.           |
+| **Fist with Index Out** | Select Text              | Fist with only index extended.           |
+| **Middle to Thumb**    | Scroll                    | Pinch middle finger to thumb and move up/down. |
+| **Two Hands**          | Zoom                      | Adjust distance between hands to zoom in/out. |
+| **Pinky to Thumb**     | Go Back                   | Pinch pinky to thumb (e.g., browser back). |
+| **Ring to Thumb**      | Go Forward                | Pinch ring finger to thumb (e.g., browser forward). |
 How It Works
 Hand Detection: Uses MediaPipe to detect hand landmarks in real-time.
 Gesture Recognition: Analyzes finger positions and distances to identify gestures.
